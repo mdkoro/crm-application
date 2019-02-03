@@ -1,53 +1,102 @@
 {
-    "name": "oro/crm-application",
-    "description": "The OroCRM distribution",
-    "homepage": "https://github.com/orocrm/crm-application.git",
-    "license": "OSL-3.0",
-    "autoload": {
-        "psr-0": {
-            "": "src/"
-        }
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packagist.orocrm.com"
-        }
-    ],
-    "require": {
-        "oro/crm": "1.9.*"
-    },
-    "require-dev": {
-        "sensio/generator-bundle": "2.5.3"
-    },
-    "config": {
-        "component-dir": "web/bundles/components"
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
-            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets",
-            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion"
-        ],
-        "post-update-cmd": [
-            "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
-            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets",
-            "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion"
-        ]
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "extra": {
-        "symfony-app-dir": "app",
-        "symfony-web-dir": "web",
-        "incenteev-parameters": {
-            "file": "app/config/parameters.yml"
-        }
+  "name": "mdk/application",
+  "description": "MDK Demo app",
+  "homepage": "https://github.com/mdkoro/crm-application",
+  "license": "OSL-3.0",
+  "autoload": {
+    "psr-0": {
+      "": "src/"
     }
+  },
+  "repositories": {
+    "enterprise": {
+      "type": "vcs",
+      "url": "https://github.com/mdkoro/crm-enterprise.git"
+    },
+    "Event": {
+      "type": "vcs",
+      "url": "https://github.com/mdkoro/EventBundle.git"
+    },
+    "Provider": {
+      "type": "vcs",
+      "url": "https://github.com/mdkoro/MockProvider.git"
+    },
+    "UI-REEA": {
+      "type": "vcs",
+      "url": "https://github.com/mdkoro/UI-REEA.git"
+    },
+    "Theme-REEA": {
+      "type": "vcs",
+      "url": "https://github.com/mdkoro/Theme-REEA.git"
+    },
+    "Getstarted": {
+      "type": "vcs",
+      "url": "https://github.com/mdkoro/GetstartedBundle.git"
+    },
+    "medikly-fullcontact-integration": {
+      "type": "vcs",
+      "url": "https://github.com/mdkoro/FullContactIntegrationBundle.git"
+    },
+    "medikly-oro-flat-theme": {
+      "type": "vcs",
+      "url": "https://github.com/mdkoro/MediklyOroFlatThemeBundle.git"
+    },
+    "web-activities": {
+      "type": "vcs",
+      "url": "https://github.com/mdkoro/WebActivities.git"
+    },
+    "aws-s3": {
+      "type": "vcs",
+      "url": "https://github.com/aws/aws-sdk-php"
+    }
+  },
+  "require": {
+    "oro/platform": "1.9.0",
+    "oro/crm": "1.9.0",
+    "oro/crm-enterprise": "1.11.x-dev",
+
+    "medikly/event-bundle": "dev-master",
+    "medikly/provider-bundle": "dev-master",
+    "medikly/ui-bundle": "dev-master",
+    "medikly/theme-bundle": "dev-master",
+    "medikly/getstarted": "dev-master",
+
+    "medikly/fullcontact-integration": "dev-master",
+    "medikly/oro-flat-theme": "dev-master",
+    "medikly/webactivities-bundle": "dev-master",
+    "medikly/physician-bundle": "dev-master"
+  },
+  "require-dev": {
+    "sensio/generator-bundle": "2.5.3"
+  },
+  "config": {
+    "component-dir": "web/bundles/components"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets",
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion"
+    ],
+    "post-update-cmd": [
+      "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
+      "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setPermissions",
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::installAssets",
+      "Oro\\Bundle\\InstallerBundle\\Composer\\ScriptHandler::setAssetsVersion"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "symfony-app-dir": "app",
+    "symfony-web-dir": "web",
+    "incenteev-parameters": {
+      "file": "app/config/parameters.yml"
+    }
+  }
 }

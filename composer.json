@@ -72,6 +72,10 @@
     "medikly-s3": {
       "type": "vcs",
       "url": "git@github.com:mdkoro/S3IntegrationBundle.git"
+    },
+    "medikly-raw-data-bundle": {
+      "type": "vcs",
+      "url":  "git@github.com:mdkoro/RawDataBundle.git"
     }
   },
   "require": {

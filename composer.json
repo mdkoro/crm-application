@@ -136,6 +136,10 @@
     "medikly/datagrid-sidebar": {
       "type": "vcs",
       "url": "git@github.com:mdkoro/DatagridSidebarBundle.git"
+    },
+    "medikly/contact-extension-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:mdkoro/ContactExtensionBundle.git"
     }
   },
   "require": {
@@ -171,7 +175,8 @@
     "medikly/importexport-extension-bundle": "dev-master",
     "medikly/segment-extension-bundle": "dev-feature/segments-profile-additional-ui-fixes",
     "medikly/datagrid-extension-bundle": "dev-master",
-    "medikly/datagrid-sidebar": "dev-master"
+    "medikly/datagrid-sidebar": "dev-master",
+    "medikly/contact-extension-bundle": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

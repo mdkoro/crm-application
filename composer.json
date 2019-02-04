@@ -137,7 +137,7 @@
     "medikly/channel": "dev-master",
     "medikly/d3js-visualization-tools-bundle": "dev-master",
     "medikly/dcjs-data-visualization": "dev-master",
-    "medikly/hospital": "dev-master",
+    "medikly/hospital": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

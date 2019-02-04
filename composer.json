@@ -128,6 +128,10 @@
     "medikly/segment-extension-bundle": {
       "type": "vcs",
       "url": "git@github.com:mdkoro/Segment-Extension-Bundle.git"
+    },
+    "medikly/datagrid-extension-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:mdkoro/DatagridExtensionBundle.git"
     }
   },
   "require": {
@@ -161,7 +165,8 @@
     "medikly/physician-value-index" : "dev-master",
     "medikly/geocoding-bundle": "dev-master",
     "medikly/importexport-extension-bundle": "dev-master",
-    "medikly/segment-extension-bundle": "dev-feature/segments-profile-additional-ui-fixes"
+    "medikly/segment-extension-bundle": "dev-feature/segments-profile-additional-ui-fixes",
+    "medikly/datagrid-extension-bundle": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

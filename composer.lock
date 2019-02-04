@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b7b52364835fbf2dcadbe17331f514b",
+    "content-hash": "f8af8b42acf9fecfddfee69805a21afb",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -3865,6 +3865,40 @@
             "time": "2019-02-03T22:22:20+00:00"
         },
         {
+            "name": "medikly/campaign-extension",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/CampaignExtensionBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mdkoro/CampaignExtensionBundle.git",
+                "reference": "32a2e00003078c14cf5bd7269e1a9ab2619f5e80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mdkoro/CampaignExtensionBundle/zipball/32a2e00003078c14cf5bd7269e1a9ab2619f5e80",
+                "reference": "32a2e00003078c14cf5bd7269e1a9ab2619f5e80",
+                "shasum": ""
+            },
+            "require": {
+                "oro/crm": "dev-1.9.0-mdk",
+                "oro/crm-enterprise": "1.11.x-dev",
+                "oro/platform": "dev-1.9.0-mdk",
+                "php": ">=5.4"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\CampaignExtensionBundle": ""
+                }
+            },
+            "description": "Bundle with different tweaks for core campaigns bundle",
+            "support": {
+                "source": "https://github.com/mdkoro/CampaignExtensionBundle/tree/master",
+                "issues": "https://github.com/mdkoro/CampaignExtensionBundle/issues"
+            },
+            "time": "2019-02-04T20:26:22+00:00"
+        },
+        {
             "name": "medikly/channel",
             "version": "dev-master",
             "target-dir": "Medikly/Bundle/ChannelBundle",
@@ -3907,6 +3941,50 @@
             "time": "2019-02-03T23:09:44+00:00"
         },
         {
+            "name": "medikly/contact-extension-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/ContactExtensionBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mdkoro/ContactExtensionBundle.git",
+                "reference": "30ba15c4e62e962833aad6b6d6748e745dddcbbf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mdkoro/ContactExtensionBundle/zipball/30ba15c4e62e962833aad6b6d6748e745dddcbbf",
+                "reference": "30ba15c4e62e962833aad6b6d6748e745dddcbbf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-Medikly-ContactExtensionBundle": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\ContactExtensionBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Contact Extension Bundle for OroCRM",
+            "keywords": [
+                "Contact",
+                "Extension",
+                "Medikly"
+            ],
+            "support": {
+                "source": "https://github.com/mdkoro/ContactExtensionBundle/tree/master",
+                "issues": "https://github.com/mdkoro/ContactExtensionBundle/issues"
+            },
+            "time": "2016-02-17T08:33:55+00:00"
+        },
+        {
             "name": "medikly/d3js-visualization-tools-bundle",
             "version": "dev-master",
             "target-dir": "Medikly/Bundle/D3jsBundle",
@@ -3944,6 +4022,88 @@
                 "issues": "https://github.com/mdkoro/D3JS-Data-Visualization-Tools/issues"
             },
             "time": "2019-02-03T23:14:38+00:00"
+        },
+        {
+            "name": "medikly/datagrid-extension-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/DatagridExtensionBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mdkoro/DatagridExtensionBundle.git",
+                "reference": "2433b8cddc2f1d1183d9708fc8df3265f86eba99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mdkoro/DatagridExtensionBundle/zipball/2433b8cddc2f1d1183d9708fc8df3265f86eba99",
+                "reference": "2433b8cddc2f1d1183d9708fc8df3265f86eba99",
+                "shasum": ""
+            },
+            "require": {
+                "mpdf/mpdf": "v6.0.0",
+                "php": ">5.4",
+                "phpoffice/phpexcel": "~1.8.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-Medikly-DatagridExtensionBundle": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\DatagridExtensionBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Datagrid Extension Bundle for Oro",
+            "keywords": [
+                "Datagrid",
+                "Medikly"
+            ],
+            "support": {
+                "source": "https://github.com/mdkoro/DatagridExtensionBundle/tree/master",
+                "issues": "https://github.com/mdkoro/DatagridExtensionBundle/issues"
+            },
+            "time": "2019-02-03T23:40:18+00:00"
+        },
+        {
+            "name": "medikly/datagrid-sidebar",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/DatagridSidebarBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mdkoro/DatagridSidebarBundle.git",
+                "reference": "c937e5d68319cf72d89201ad8f59c522fd308167"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mdkoro/DatagridSidebarBundle/zipball/c937e5d68319cf72d89201ad8f59c522fd308167",
+                "reference": "c937e5d68319cf72d89201ad8f59c522fd308167",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\DatagridSidebarBundle": "."
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ScandiWeb",
+                    "email": "info@scandiweb.com"
+                }
+            ],
+            "description": "Datagrid Sidebar Bundle for Medikly",
+            "support": {
+                "source": "https://github.com/mdkoro/DatagridSidebarBundle/tree/master",
+                "issues": "https://github.com/mdkoro/DatagridSidebarBundle/issues"
+            },
+            "time": "2017-04-21T12:36:57+00:00"
         },
         {
             "name": "medikly/dcjs-data-visualization",
@@ -4186,6 +4346,50 @@
                 "issues": "https://github.com/mdkoro/HospitalBundle/issues"
             },
             "time": "2019-02-03T23:27:01+00:00"
+        },
+        {
+            "name": "medikly/importexport-extension-bundle",
+            "version": "dev-master",
+            "target-dir": "Medikly/Bundle/ImportExportExtensionBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mdkoro/ImportExportExtensionBundle.git",
+                "reference": "f046e6c7a9f637aa9a13a666d7a8c68d300a74c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mdkoro/ImportExportExtensionBundle/zipball/f046e6c7a9f637aa9a13a666d7a8c68d300a74c9",
+                "reference": "f046e6c7a9f637aa9a13a666d7a8c68d300a74c9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-Medikly-ImportExportExtensionBundle": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\ImportExportExtensionBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Import Export Extension Bundle for OroCRM",
+            "keywords": [
+                "Export",
+                "Import",
+                "Medikly"
+            ],
+            "support": {
+                "source": "https://github.com/mdkoro/ImportExportExtensionBundle/tree/master",
+                "issues": "https://github.com/mdkoro/ImportExportExtensionBundle/issues"
+            },
+            "time": "2016-01-14T07:46:50+00:00"
         },
         {
             "name": "medikly/inheritance",
@@ -4511,6 +4715,50 @@
                 "issues": "https://github.com/mdkoro/S3IntegrationBundle/issues"
             },
             "time": "2019-02-03T23:30:45+00:00"
+        },
+        {
+            "name": "medikly/segment-extension-bundle",
+            "version": "dev-feature/segments-profile-additional-ui-fixes",
+            "target-dir": "Medikly/Bundle/SegmentExtensionBundle",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mdkoro/Segment-Extension-Bundle.git",
+                "reference": "8aaf0d88cf6790c7e916c3ec72b0c7f4c5c42bf8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mdkoro/Segment-Extension-Bundle/zipball/8aaf0d88cf6790c7e916c3ec72b0c7f4c5c42bf8",
+                "reference": "8aaf0d88cf6790c7e916c3ec72b0c7f4c5c42bf8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.4"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-Medikly-SegmentExtensionBundle": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Medikly\\Bundle\\SegmentExtensionBundle": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Medikly Segment Extension",
+            "keywords": [
+                "Extention",
+                "Medikly",
+                "Segment"
+            ],
+            "support": {
+                "source": "https://github.com/mdkoro/Segment-Extension-Bundle/tree/feature/segments-profile-additional-ui-fixes",
+                "issues": "https://github.com/mdkoro/Segment-Extension-Bundle/issues"
+            },
+            "time": "2017-05-25T16:35:04+00:00"
         },
         {
             "name": "medikly/theme-bundle",
@@ -4877,6 +5125,49 @@
                 "psr-3"
             ],
             "time": "2014-03-23T19:50:26+00:00"
+        },
+        {
+            "name": "mpdf/mpdf",
+            "version": "v6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mpdf/mpdf.git",
+                "reference": "a15743d030ce3b5b7be36c6e83f76589b27c3f2c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mpdf/mpdf/zipball/a15743d030ce3b5b7be36c6e83f76589b27c3f2c",
+                "reference": "a15743d030ce3b5b7be36c6e83f76589b27c3f2c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=4.3.10"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "mpdf.php",
+                    "classes"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-1.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Ian Back"
+                }
+            ],
+            "description": "A PHP class to generate PDF files from HTML with Unicode/UTF-8 and CJK support",
+            "homepage": "http://www.mpdf1.com/mpdf/index.php",
+            "keywords": [
+                "pdf",
+                "php",
+                "utf-8"
+            ],
+            "time": "2015-03-01T10:27:49+00:00"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -5565,6 +5856,69 @@
                 "set"
             ],
             "time": "2013-01-23T15:16:14+00:00"
+        },
+        {
+            "name": "phpoffice/phpexcel",
+            "version": "1.8.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPOffice/PHPExcel.git",
+                "reference": "1441011fb7ecdd8cc689878f54f8b58a6805f870"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPOffice/PHPExcel/zipball/1441011fb7ecdd8cc689878f54f8b58a6805f870",
+                "reference": "1441011fb7ecdd8cc689878f54f8b58a6805f870",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
+                "php": "^5.2|^7.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPExcel": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Maarten Balliauw",
+                    "homepage": "http://blog.maartenballiauw.be"
+                },
+                {
+                    "name": "Erik Tilt"
+                },
+                {
+                    "name": "Franck Lefevre",
+                    "homepage": "http://rootslabs.net"
+                },
+                {
+                    "name": "Mark Baker",
+                    "homepage": "http://markbakeruk.net"
+                }
+            ],
+            "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
+            "homepage": "https://github.com/PHPOffice/PHPExcel",
+            "keywords": [
+                "OpenXML",
+                "excel",
+                "php",
+                "spreadsheet",
+                "xls",
+                "xlsx"
+            ],
+            "abandoned": "phpoffice/phpspreadsheet",
+            "time": "2018-11-22T23:07:24+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -7858,7 +8212,13 @@
         "medikly/dcjs-data-visualization": 20,
         "medikly/hospital": 20,
         "medikly/physician-value-index": 20,
-        "medikly/geocoding-bundle": 20
+        "medikly/geocoding-bundle": 20,
+        "medikly/importexport-extension-bundle": 20,
+        "medikly/segment-extension-bundle": 20,
+        "medikly/datagrid-extension-bundle": 20,
+        "medikly/datagrid-sidebar": 20,
+        "medikly/contact-extension-bundle": 20,
+        "medikly/campaign-extension": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

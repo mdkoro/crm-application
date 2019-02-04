@@ -84,6 +84,10 @@
     "medikly-tracking-bundle": {
       "type": "vcs",
       "url": "git@github.com:mdkoro/TrackingBundle.git"
+    },
+    "medikly-account-extension": {
+      "type": "vcs",
+      "url": "git@github.com:mdkoro/AccountExtensionBundle.git"
     }
   },
   "require": {
@@ -107,7 +111,8 @@
     "medikly/s3integration-bundle": "dev-master",
     "medikly/raw-data-bundle":"dev-master",
     "medikly/inheritance": "dev-master",
-    "medikly/tracking": "dev-master"
+    "medikly/tracking": "dev-master",
+    "medikly/account-extension": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

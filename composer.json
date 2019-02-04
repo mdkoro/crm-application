@@ -151,8 +151,7 @@
     "medikly/dcjs-data-visualization": "dev-master",
     "medikly/hospital": "dev-master",
     "medikly/physician-value-index" : "dev-master",
-    "medikly/geocoding-bundle": "dev-master",
-    "medikly/dataset-bundle": "dev-master"
+    "medikly/geocoding-bundle": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

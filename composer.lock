@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec480bf04fcb513f3003b2e728514f3f",
+    "content-hash": "8b7b52364835fbf2dcadbe17331f514b",
     "packages": [
         {
             "name": "a2lix/translation-form-bundle",
@@ -3946,45 +3946,6 @@
             "time": "2019-02-03T23:14:38+00:00"
         },
         {
-            "name": "medikly/dataset-bundle",
-            "version": "dev-master",
-            "target-dir": "Medikly/Bundle/DatasetBundle",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:mdkoro/DatasetBundle.git",
-                "reference": "46d8aa9380fb79780ae8b1611690261b882bdaaa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mdkoro/DatasetBundle/zipball/46d8aa9380fb79780ae8b1611690261b882bdaaa",
-                "reference": "46d8aa9380fb79780ae8b1611690261b882bdaaa",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">5.4",
-                "phpoffice/phpexcel": "~1.8.0"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Medikly\\Bundle\\DatasetBundle": ""
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "Medikly Dataset Bundle for OroCRM",
-            "keywords": [
-                "Dataset",
-                "Medikly"
-            ],
-            "support": {
-                "source": "https://github.com/mdkoro/DatasetBundle/tree/master",
-                "issues": "https://github.com/mdkoro/DatasetBundle/issues"
-            },
-            "time": "2019-02-03T23:36:22+00:00"
-        },
-        {
             "name": "medikly/dcjs-data-visualization",
             "version": "dev-master",
             "target-dir": "Medikly/Bundle/DcJsBundle",
@@ -5604,69 +5565,6 @@
                 "set"
             ],
             "time": "2013-01-23T15:16:14+00:00"
-        },
-        {
-            "name": "phpoffice/phpexcel",
-            "version": "1.8.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/PHPOffice/PHPExcel.git",
-                "reference": "1441011fb7ecdd8cc689878f54f8b58a6805f870"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/PHPOffice/PHPExcel/zipball/1441011fb7ecdd8cc689878f54f8b58a6805f870",
-                "reference": "1441011fb7ecdd8cc689878f54f8b58a6805f870",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "ext-xml": "*",
-                "ext-xmlwriter": "*",
-                "php": "^5.2|^7.0"
-            },
-            "require-dev": {
-                "squizlabs/php_codesniffer": "2.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "PHPExcel": "Classes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-2.1"
-            ],
-            "authors": [
-                {
-                    "name": "Maarten Balliauw",
-                    "homepage": "http://blog.maartenballiauw.be"
-                },
-                {
-                    "name": "Erik Tilt"
-                },
-                {
-                    "name": "Franck Lefevre",
-                    "homepage": "http://rootslabs.net"
-                },
-                {
-                    "name": "Mark Baker",
-                    "homepage": "http://markbakeruk.net"
-                }
-            ],
-            "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
-            "homepage": "https://github.com/PHPOffice/PHPExcel",
-            "keywords": [
-                "OpenXML",
-                "excel",
-                "php",
-                "spreadsheet",
-                "xls",
-                "xlsx"
-            ],
-            "abandoned": "phpoffice/phpspreadsheet",
-            "time": "2018-11-22T23:07:24+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -7960,8 +7858,7 @@
         "medikly/dcjs-data-visualization": 20,
         "medikly/hospital": 20,
         "medikly/physician-value-index": 20,
-        "medikly/geocoding-bundle": 20,
-        "medikly/dataset-bundle": 20
+        "medikly/geocoding-bundle": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

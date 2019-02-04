@@ -9,6 +9,10 @@
     }
   },
   "repositories": {
+    "composer": {
+      "type": "composer",
+      "url": "https://packagist.orocrm.com"
+    },
     "enterprise": {
       "type": "vcs",
       "url": "https://github.com/mdkoro/crm-enterprise.git"
@@ -44,10 +48,6 @@
     "web-activities": {
       "type": "vcs",
       "url": "https://github.com/mdkoro/WebActivities.git"
-    },
-    "aws-s3": {
-      "type": "vcs",
-      "url": "https://github.com/aws/aws-sdk-php"
     }
   },
   "require": {

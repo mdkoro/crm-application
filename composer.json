@@ -71,7 +71,7 @@
     },
     "medikly-s3": {
       "type": "vcs",
-      "url": "git@github.com:ragavagroup/S3IntegrationBundle.git"
+      "url": "git@github.com:mdkoro/S3IntegrationBundle.git"
     }
   },
   "require": {

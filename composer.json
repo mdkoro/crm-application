@@ -78,6 +78,7 @@
     "oro/platform": "dev-1.9.0-mdk",
     "oro/crm": "dev-1.9.0-mdk",
     "oro/crm-enterprise": "1.11.x-dev",
+    "akeneo/batch-bundle": "0.4.2",
 
     "medikly/event-bundle": "dev-master",
     "medikly/provider-bundle": "dev-master",

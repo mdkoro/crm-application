@@ -80,6 +80,10 @@
     "Inheritance": {
       "type": "vcs",
       "url": "git@github.com:mdkoro/InheritanceBundle.git"
+    },
+    "medikly-tracking-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:mdkoro/TrackingBundle.git"
     }
   },
   "require": {
@@ -102,7 +106,8 @@
     "medikly/resource-bundle": "dev-master",
     "medikly/s3integration-bundle": "dev-master",
     "medikly/raw-data-bundle":"dev-master",
-    "medikly/inheritance": "dev-master"
+    "medikly/inheritance": "dev-master",
+    "medikly/tracking": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

@@ -120,7 +120,11 @@
     "medikly/dataset-bundle": {
       "type": "vcs",
       "url": "git@github.com:mdkoro/DatasetBundle.git"
-    }
+    },
+    "medikly-importexport-extension": {
+      "type": "vcs",
+      "url": "git@github.com:mdkoro/ImportExportExtensionBundle.git"
+    },
   },
   "require": {
     "oro/platform": "dev-1.9.0-mdk",
@@ -152,7 +156,8 @@
     "medikly/hospital": "dev-master",
     "medikly/physician-value-index" : "dev-master",
     "medikly/geocoding-bundle": "dev-master",
-    "medikly/dataset-bundle": "dev-master"
+    "medikly/dataset-bundle": "dev-master",
+    "medikly/importexport-extension-bundle": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

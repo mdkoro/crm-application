@@ -95,7 +95,8 @@
     "medikly/webactivities-bundle": "dev-master",
     "medikly/physician-bundle": "dev-master",
     "medikly/resource-bundle": "dev-master",
-    "medikly/s3integration-bundle": "dev-master"
+    "medikly/s3integration-bundle": "dev-master",
+    "medikly/raw-data-bundle":"dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

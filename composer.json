@@ -108,6 +108,10 @@
     "medikly/hospital-bundle": {
       "type": "vcs",
       "url": "git@github.com:mdkoro/HospitalBundle.git"
+    },
+    "medikly/physician-value-index-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:mdkoro/PhysicianValueIndex.git"
     }
   },
   "require": {
@@ -137,7 +141,8 @@
     "medikly/channel": "dev-master",
     "medikly/d3js-visualization-tools-bundle": "dev-master",
     "medikly/dcjs-data-visualization": "dev-master",
-    "medikly/hospital": "dev-master"
+    "medikly/hospital": "dev-master",
+    "medikly/physician-value-index" : "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

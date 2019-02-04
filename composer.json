@@ -51,7 +51,7 @@
     },
     "medikly-physician": {
       "type": "vcs",
-      "url": "https://github.com/ragavagroup/Physician.git"
+      "url": "https://github.com/mdkoro/Physician.git"
     }
   },
   "require": {

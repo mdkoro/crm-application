@@ -17,6 +17,10 @@
       "type": "vcs",
       "url": "https://github.com/mdkoro/platform.git"
     },
+    "oro/crm": {
+      "type": "vcs",
+      "url": "https://github.com/mdkoro/crm.git"
+    },
     "composer": {
       "type": "composer",
       "url": "https://packagist.orocrm.com"
@@ -60,7 +64,7 @@
   },
   "require": {
     "oro/platform": "dev-1.9.0-mdk",
-    "oro/crm": "1.9.0",
+    "oro/crm": "dev-1.9.0-mdk",
     "oro/crm-enterprise": "1.11.x-dev",
 
     "medikly/event-bundle": "dev-master",

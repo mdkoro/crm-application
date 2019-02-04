@@ -88,6 +88,10 @@
     "medikly-account-extension": {
       "type": "vcs",
       "url": "git@github.com:mdkoro/AccountExtensionBundle.git"
+    },
+    "medikly-channel": {
+      "type": "vcs",
+      "url": "git@github.com:mdkoro/ChannelBundle.git"
     }
   },
   "require": {
@@ -112,7 +116,8 @@
     "medikly/raw-data-bundle":"dev-master",
     "medikly/inheritance": "dev-master",
     "medikly/tracking": "dev-master",
-    "medikly/account-extension": "dev-master"
+    "medikly/account-extension": "dev-master",
+    "medikly/channel": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

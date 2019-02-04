@@ -60,6 +60,10 @@
     "medikly-physician": {
       "type": "vcs",
       "url": "https://github.com/mdkoro/Physician.git"
+    },
+    "medikly-resource-bundle" : {
+      "type": "vcs",
+      "url": "https://github.com/mdkoro/DataResourceBundle.git"
     }
   },
   "require": {
@@ -76,7 +80,8 @@
     "medikly/fullcontact-integration": "dev-master",
     "medikly/oro-flat-theme": "dev-master",
     "medikly/webactivities-bundle": "dev-master",
-    "medikly/physician-bundle": "dev-master"
+    "medikly/physician-bundle": "dev-master",
+    "medikly/resource-bundle": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

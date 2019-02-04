@@ -116,6 +116,10 @@
     "medikly/geocoding-bundle": {
       "type": "vcs",
       "url": "git@github.com:mdkoro/GeoCodingBundle.git"
+    },
+    "medikly/dataset-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:mdkoro/DatasetBundle.git"
     }
   },
   "require": {
@@ -147,7 +151,8 @@
     "medikly/dcjs-data-visualization": "dev-master",
     "medikly/hospital": "dev-master",
     "medikly/physician-value-index" : "dev-master",
-    "medikly/geocoding-bundle": "dev-master"
+    "medikly/geocoding-bundle": "dev-master",
+    "medikly/dataset-bundle": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

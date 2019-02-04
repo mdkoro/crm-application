@@ -64,6 +64,14 @@
     "medikly-resource-bundle" : {
       "type": "vcs",
       "url": "https://github.com/mdkoro/DataResourceBundle.git"
+    },
+    "aws-s3": {
+      "type": "vcs",
+      "url": "https://github.com/aws/aws-sdk-php"
+    },
+    "medikly-s3": {
+      "type": "vcs",
+      "url": "git@github.com:ragavagroup/S3IntegrationBundle.git"
     }
   },
   "require": {
@@ -81,7 +89,8 @@
     "medikly/oro-flat-theme": "dev-master",
     "medikly/webactivities-bundle": "dev-master",
     "medikly/physician-bundle": "dev-master",
-    "medikly/resource-bundle": "dev-master"
+    "medikly/resource-bundle": "dev-master",
+    "medikly/s3integration-bundle": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

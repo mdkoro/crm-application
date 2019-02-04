@@ -104,7 +104,7 @@
     "medikly-dcjs-bundle": {
       "type": "vcs",
       "url": "git@github.com:mdkoro/DcJS-Data-Visualization.git"
-    }
+    },
     "medikly/hospital-bundle": {
       "type": "vcs",
       "url": "git@github.com:mdkoro/HospitalBundle.git"

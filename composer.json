@@ -92,6 +92,10 @@
     "medikly-channel": {
       "type": "vcs",
       "url": "git@github.com:mdkoro/ChannelBundle.git"
+    },
+    "tracking-extension": {
+      "type": "vcs",
+      "url": "git@github.com:mdkoro/TrackingExtensionBundle.git"
     }
   },
   "require": {
@@ -116,6 +120,7 @@
     "medikly/raw-data-bundle":"dev-master",
     "medikly/inheritance": "dev-master",
     "medikly/tracking": "dev-master",
+    "medikly/tracking-extension" : "dev-master",
     "medikly/account-extension": "dev-master",
     "medikly/channel": "dev-master"
   },

@@ -96,6 +96,14 @@
     "tracking-extension": {
       "type": "vcs",
       "url": "git@github.com:mdkoro/TrackingExtensionBundle.git"
+    },
+    "medikly-d3js-visualization-tools-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:mdkoro/D3JS-Data-Visualization-Tools.git"
+    },
+    "medikly-dcjs-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:mdkoro/DcJS-Data-Visualization.git"
     }
   },
   "require": {
@@ -122,7 +130,9 @@
     "medikly/tracking": "dev-master",
     "medikly/tracking-extension" : "dev-master",
     "medikly/account-extension": "dev-master",
-    "medikly/channel": "dev-master"
+    "medikly/channel": "dev-master",
+    "medikly/d3js-visualization-tools-bundle": "dev-master",
+    "medikly/dcjs-data-visualization": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

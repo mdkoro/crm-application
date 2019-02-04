@@ -105,6 +105,10 @@
       "type": "vcs",
       "url": "git@github.com:mdkoro/DcJS-Data-Visualization.git"
     }
+    "medikly/hospital-bundle": {
+      "type": "vcs",
+      "url": "git@github.com:mdkoro/HospitalBundle.git"
+    }
   },
   "require": {
     "oro/platform": "dev-1.9.0-mdk",
@@ -132,7 +136,8 @@
     "medikly/account-extension": "dev-master",
     "medikly/channel": "dev-master",
     "medikly/d3js-visualization-tools-bundle": "dev-master",
-    "medikly/dcjs-data-visualization": "dev-master"
+    "medikly/dcjs-data-visualization": "dev-master",
+    "medikly/hospital": "dev-master",
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

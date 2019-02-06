@@ -186,7 +186,7 @@
     "medikly/datagrid-sidebar": "dev-master",
     "medikly/contact-extension-bundle": "dev-master",
     "medikly/campaign-extension": "dev-master",
-    "medikly/css-live-editor": "dev-master"
+    "medikly/css-live-editor-bundle": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"

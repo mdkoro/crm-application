@@ -144,6 +144,10 @@
     "medikly/campaign-extension": {
       "type": "vcs",
       "url": "git@github.com:mdkoro/CampaignExtensionBundle.git"
+    },
+    "medikly/css-live-editor": {
+      "type": "vcs",
+      "url": "git@github.com:mdkoro/CssLiveEditorBundle.git"
     }
   },
   "require": {
@@ -181,7 +185,8 @@
     "medikly/datagrid-extension-bundle": "dev-master",
     "medikly/datagrid-sidebar": "dev-master",
     "medikly/contact-extension-bundle": "dev-master",
-    "medikly/campaign-extension": "dev-master"
+    "medikly/campaign-extension": "dev-master",
+    "medikly/css-live-editor": "dev-master"
   },
   "require-dev": {
     "sensio/generator-bundle": "2.5.3"
